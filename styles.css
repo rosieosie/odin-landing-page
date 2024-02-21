@@ -41,6 +41,8 @@
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
 
 a {
@@ -160,13 +162,14 @@ button {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 450px;
+    height: 400px;
 }
 
 #info-grid {
     display: flex;
     gap: 36px;
-    margin-bottom: 100px;
+    margin-top: -30px;
+    margin-bottom: 50px;
 }
 
 .figure {
@@ -179,4 +182,38 @@ button {
 
 .figure p {
     width: 130px;
+    margin-top: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 36px;
+}
+
+.about {
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 48px;
+}
+
+.about h1 {
+    margin-bottom: 8px;
+}
+
+.about button {
+    margin-top: 16px;
+}
+
+img {
+    width: 600px;
+    height: auto;
 }
