@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Roboto Bold;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto Medium ;
+    src: url(Roboto/Roboto-Medium.ttf);
+}
+
+.header, .about, .footer {
+    background-color: #1F2937;
+    color: white;
+    font-family:'Roboto Medium', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
