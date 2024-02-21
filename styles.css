@@ -17,6 +17,12 @@
     src: url(Roboto/Roboto-LightItalic.ttf);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .header, .about, .footer {
     background-color: #1F2937;
 }
@@ -30,7 +36,7 @@
 .secondary-text {
     color: #E5E7EB;
     font-family: "Roboto Light", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 ul {
@@ -63,11 +69,15 @@ button {
 .cta {
     background-color: #3883F6;
     color: #F9FAF8;
+    width: 65vw;
+    padding: 24px;
+    border-radius: 8px;
+
 }
 
 .cta h3 {
     font-family: "Roboto Bold", sans-serif;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .quote {
@@ -102,3 +112,4 @@ button {
     font-family: "Roboto Light", sans-serif;
     font-size: 14px;
 }
+
